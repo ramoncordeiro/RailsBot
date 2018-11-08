@@ -1,5 +1,8 @@
 require_relative './../spec_helper.rb'
 
+require 'factory_bot'
+require 'ffaker'
+
 describe InterpretService do
   before :each do
     @company = create(:company)

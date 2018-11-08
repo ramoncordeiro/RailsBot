@@ -1,5 +1,8 @@
 require_relative './../../spec_helper.rb'
 
+require 'factory_bot'
+require 'ffaker'
+
 describe FaqModule::RemoveService do
   before do
     @company = create(:company)

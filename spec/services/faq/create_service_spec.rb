@@ -1,4 +1,8 @@
 require_relative './../../spec_helper.rb'
+#require_relative '../../spec/spec_helper.rb'
+#require './spec/spec_helper.rb'
+require 'factory_bot'
+require 'ffaker'
 
 describe FaqModule::CreateService do
   before do
