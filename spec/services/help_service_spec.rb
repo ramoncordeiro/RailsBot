@@ -1,11 +1,18 @@
 #require_relative './../../spec_helper.rb'
+<<<<<<< HEAD
 #require_relative './../spec_helper.rb'
 
 #require 'factory_bot'
 #require 'ffaker'
 
 require_relative './../spec_helper.rb'
+=======
+#require_relative './spec/spec_helper.rb'
+#require 'factory_bot'
+#require 'ffaker'
+>>>>>>> deploy
 
+require_relative '../../../spec_helper.rb'
 require 'factory_bot'
 require 'ffaker'
 
