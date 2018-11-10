@@ -1,4 +1,10 @@
-require_relative './../../spec_helper.rb'
+#require_relative './../../spec_helper.rb'
+#require_relative './../spec_helper.rb'
+
+#require 'factory_bot'
+#require 'ffaker'
+
+require_relative './../spec_helper.rb'
 
 require 'factory_bot'
 require 'ffaker'
